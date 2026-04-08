@@ -1,7 +1,7 @@
 site_name: TaskFlow API
 site_url: https://github.com/thankfulfor/taskflow-api-docs
 theme:
-  name: material # Это популярная тема, но и стандартная тоже подойдет
+  name: readthedocs
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
