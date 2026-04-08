@@ -1,0 +1,43 @@
+openapi: 3.0.3
+info:
+  title: TaskFlow API
+  description: Пример API для управления задачами из моего портфолио.
+  version: 1.0.0
+servers:
+  - url: https://api.taskflow.example/v1
+    description: Демо-сервер
+paths:
+  /tasks:
+    get:
+      summary: Получить список задач
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    title:
+                      type: string
+    post:
+      summary: Создать новую задачу
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+              required: [title]
+      responses:
+        '201':
+          description: Задача создана
+components:
+  schemas: {}

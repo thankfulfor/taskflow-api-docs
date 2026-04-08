@@ -1,0 +1,10 @@
+site_name: TaskFlow API
+site_url: https://github.com/thankfulfor/taskflow-api-docs
+theme:
+  name: material # Это популярная тема, но и стандартная тоже подойдет
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - API Reference: api.md
+plugins:
+  - redoc-tag
