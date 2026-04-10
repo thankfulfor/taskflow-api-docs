@@ -6,7 +6,12 @@ nav:
   - Главная: index.md
   - Быстрый старт: getting-started.md
   - Справочник API: api.md
+  - Версии API: versions.md
+  - Changelog: changelog.md
 plugins:
+  - search
   - redoc-tag
+extra_css:
+  - stylesheets/extra.css
 extra_javascript:
   - javascripts/i18n-nav.js
