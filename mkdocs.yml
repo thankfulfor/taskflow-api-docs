@@ -3,8 +3,10 @@ site_url: https://github.com/thankfulfor/taskflow-api-docs
 theme:
   name: readthedocs
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - API Reference: api.md
+  - Главная: index.md
+  - Быстрый старт: getting-started.md
+  - Справочник API: api.md
 plugins:
   - redoc-tag
+extra_javascript:
+  - javascripts/i18n-nav.js
