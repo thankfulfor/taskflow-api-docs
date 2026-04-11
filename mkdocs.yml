@@ -1,5 +1,5 @@
 site_name: Swagger Petstore API Docs
-site_url: https://github.com/thankfulfor/taskflow-api-docs
+site_url: https://thankfulfor.github.io/petstore-api-docs/
 theme:
   name: readthedocs
 nav:
