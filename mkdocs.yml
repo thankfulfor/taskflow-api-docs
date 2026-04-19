@@ -35,10 +35,17 @@ nav:
   - Interactive API: interactive-api.md
   - Бизнес-аналитика:
       - Обзор: business/index.md
+      - BPMN процесса заказа: business/bpmn-order-flow.md
+      - Дашборд продаж: business/sales-dashboard.md
   - Разработчикам:
       - Обзор: developers/index.md
+      - C4 Архитектура: developers/architecture-c4.md
+      - Sequence (создание заказа): developers/sequence-create-order.md
+      - UML Class Model: developers/uml-class-model.md
   - Пользователям:
       - Обзор: users/index.md
+      - Онбординг: users/onboarding.md
+      - Устранение неполадок: users/troubleshooting.md
   - О проекте:
       - Описание: about/index.md
       - Docs as Code: about/docs-as-code.md

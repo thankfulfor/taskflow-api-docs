@@ -1,0 +1,14 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(dev, "Developer", "Integrates with REST API")
+System_Boundary(petstore, "Petstore Platform") {
+  System(api, "Petstore API", "Pet / Store / Order operations")
+}
+System_Ext(pages, "GitHub Pages", "Hosts docs portal")
+System_Ext(actions, "GitHub Actions", "Builds and deploys docs")
+
+Rel(dev, api, "Uses REST")
+Rel(actions, pages, "Deploys documentation")
+Rel(dev, pages, "Reads docs")
+@enduml
